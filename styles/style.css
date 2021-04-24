@@ -1,0 +1,29 @@
+.title {
+    color: white;
+    background-color: rgb(107, 197, 167);
+    text-align: center;
+}
+
+.desc {
+    color: white;
+    text-align: center;
+}
+
+pre code {
+    background-color:#2a343d;
+    border: 1px solid #999;
+    display: block;
+    padding: 20px;
+}
+
+p {
+    color: red;
+}
+
+code {
+    background-color: rgb(39, 32, 32);
+}
+
+.example {
+    color: white;
+}
