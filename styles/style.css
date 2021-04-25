@@ -1,11 +1,15 @@
+body {
+    padding: 1em;
+}
+
 .title {
-    color: white;
-    background-color: rgb(107, 197, 167);
+    color: gray;
+    padding: 0.8em;
     text-align: center;
 }
 
 .desc {
-    color: white;
+    color: gray;
     text-align: center;
 }
 
@@ -25,5 +29,65 @@ code {
 }
 
 .example {
+    color: gray;
+}
+
+#main-icon {
+    width: 100px;
+    height: 100px;
+    margin:0em auto;
+}
+
+#main-icon-holder {
+    text-align: center;
+}
+
+#button-holder {
+    position: fixed;
+    top: 15%;
+    float: left;
+    background-color: rgba(0,0,0,0.2);
+    padding: 1em;
+    border-radius: 12px;
+}
+
+hr {
+    margin: 40px 0;
+}
+
+footer {
+    background-color: rgba(0,0,0,0.2);
+    text-align: center;
+    width: 40%;
+    border-radius: 8px;
+    margin: 0.1em auto;
+    padding: 0.1%;
+}
+
+footer h6 {
     color: white;
+    font-size: 20px;
+}
+footer a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    }
+
+#button-holder button {
+    width: 150px;
+    color: white;
+    background-color: rgb(59, 59, 57);
+    border: none;
+    border-radius: 8px;
+    padding: 0.7em;
+    margin: 2px;
+}
+
+.ty-comment {
+    color: green;
+}
+
+.ty-keyword {
+    color: rgb(83, 0, 83);
 }
