@@ -83,3 +83,11 @@ footer a {
     padding: 0.7em;
     margin: 2px;
 }
+
+.ty-comment {
+    color: green;
+}
+
+.ty-keyword {
+    color: rgb(83, 0, 83);
+}
